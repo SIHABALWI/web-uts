@@ -1,0 +1,134 @@
+/* Bagian header*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Menambahkan box-sizing untuk menghindari overflow */
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.navigasi {
+    display: flex;
+    background-color: #000000;
+    color: #fcfcfc;
+    align-items: center;
+    padding: 20px;
+}
+
+.link {
+    margin-left: auto; /* Menggunakan margin-left:auto untuk mengatur posisi navbar ke kanan */
+}
+
+.navbar {
+    display: flex;
+    gap: 1em;
+}
+
+.navbar li {
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid transparent; /* Menggunakan solid untuk border agar konsisten */
+    list-style-type: none;
+    transition: background-color 0.3s ease; /* Mengurangi durasi transisi */
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navbar li.active {
+    background-color: #EBE0D0;
+    color: #636363;
+}
+
+.navbar li:hover {
+    background-color: #636363;
+}
+
+/* Bagian isi container */
+.container {
+    margin: auto;
+    padding: auto;
+    background-color: #636363;
+    width: 100%;
+    max-width: 100%; /* Mengisi seluruh lebar layar */
+}
+/* Bagian isi container */
+.isi {
+    padding: 50px;
+    text-align: center;
+    width: 100%; /* Mengisi seluruh lebar layar */
+    max-width: 100%; /* Mengisi seluruh lebar layar */
+    box-sizing: border-box; /* Menambahkan box-sizing untuk menghindari overflow */
+}
+
+/* Bagian Profile */
+.profil {
+    text-align: center;
+    padding: 50px;
+    background-color: #949494;
+    width: 100%; /* Mengisi seluruh lebar layar */
+    max-width: 100%; /* Mengisi seluruh lebar layar */
+    box-sizing: border-box; /* Menambahkan box-sizing untuk menghindari overflow */
+}
+
+/* Untuk bagian card profile*/
+.card {
+    background-color: #636363;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Memperbesar padding */
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    max-width: 100%; /* Mengisi seluruh lebar layar */
+    box-sizing: border-box; /* Menambahkan box-sizing untuk menghindari overflow */
+}
+.profil h2 {
+    color: #EBE0D0;
+}
+
+/* Untuk bagian card profile*/
+.card {
+    background-color: #636363;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Memperbesar padding */
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+.card img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.card h3,
+.card p,
+.card li {
+    color: #EBE0D0; /* Menggunakan warna yang sama untuk teks dalam card */
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.card li {
+    margin-bottom: 5px;
+}
+
+/* Bagian Footer*/
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px; /* Memperbesar padding */
+}

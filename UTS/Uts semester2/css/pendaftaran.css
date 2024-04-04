@@ -1,0 +1,136 @@
+/* Bagian header */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Menambahkan box-sizing untuk menghindari overflow */
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.navigasi {
+    display: flex;
+    background-color: #000000;
+    color: #fcfcfc;
+    align-items: center;
+    padding: 20px;
+}
+
+.link {
+    margin-left: auto; /* Menggunakan margin-left:auto untuk mengatur posisi navbar ke kanan */
+}
+
+.navbar {
+    display: flex;
+    gap: 1em;
+}
+
+.navbar li {
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid transparent; /* Menggunakan solid untuk border agar konsisten */
+    list-style-type: none;
+    transition: background-color 0.3s ease; /* Mengurangi durasi transisi */
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navbar li.active {
+    background-color: #EBE0D0;
+    color: #636363;
+}
+
+.navbar li:hover {
+    background-color: #636363;
+}
+
+/* Bagian isi container */
+
+.container {
+    margin: auto;
+    padding: auto;
+    background-color: #949494;
+    width: 100%;
+    max-width: 100%; /* Mengisi seluruh lebar layar */
+}
+
+/* Bagian isi container */
+
+.isi {
+    padding: 50px;
+    text-align: center;
+    width: 100%; /* Mengisi seluruh lebar layar */
+    max-width: 100%; /* Mengisi seluruh lebar layar */
+    box-sizing: border-box; /* Menambahkan box-sizing untuk menghindari overflow */
+}
+
+/* Styling untuk formulir pendaftaran */
+
+.card {
+    background-color: #636363;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Memperbesar padding */
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    max-width: 100%; /* Mengisi seluruh lebar layar */
+    box-sizing: border-box; /* Menambahkan box-sizing untuk menghindari overflow */
+}
+
+.card h2 {
+    color: #EBE0D0;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    color: #ffffff;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.form-group button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #EBE0D0;
+    color: #636363;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.form-group button:hover {
+    background-color: #ffffff;
+    color: #636363;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px; /* Memperbesar padding */
+}
